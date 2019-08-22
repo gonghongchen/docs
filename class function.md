@@ -40,7 +40,7 @@ export default Test
         );
     }
     ```
-    分别点击两个按钮后，会打印出上面信息？是这样的：
+    分别点击两个按钮后，上面打印出的信息是这样的：
     ```javascript
     doClick() {
         console.log(this);  // undefined
