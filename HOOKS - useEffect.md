@@ -49,4 +49,4 @@ function FriendStatus(props) {
     （与 componentDidMount 及 componentDidUpdate 不同的是，effect 在通过 useEffect 进行计算时并不会阻塞浏览器的渲染，这会使得你的 APP 响应更快。大多数的 effect 并不需要同步执行，而特殊情况下（例如计算布局）则需要）
 
     * You can tell React to skip applying an effect if certain values haven’t changed between re-renders. To do so, pass an array as an optional second argument to useEffect.
-    （你可以）
+    （在重新渲染的过程中，如果某些值没有改变，那么你可以通过给 useEffect 传入一个数组作为第二个可选的参数来跳过执行 effect）
