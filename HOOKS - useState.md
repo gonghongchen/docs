@@ -21,7 +21,7 @@ const [state, setState] = useState(initialState);
 
   * state
     * During subsequent re-renders, the first value returned by useState will always be the most recent state after applying updates.
-    （在后面得渲染过程中，第一次调用 useState 方法所得到的 state 值将会作为）===============
+    （在后面的重新渲染过程中，调用 useState 方法所返回的数组中的第一个值将会永远是最新的 state 值）
 
   * setState
     * setState accepts a new state value and enqueues a re-render of the component.
