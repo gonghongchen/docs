@@ -37,7 +37,7 @@ function FriendStatus(props) {
     （传入给 useEffect 的函数需要等到真正渲染完成后才会执行）
 
     * By default, effects run after every completed render, but you can choose to fire it only when certain values have changed.
-    （默认情况下，effect 在每次渲染完成后执行，但你也可以选择在某些值改变后就执行）========
+    （默认情况下，effect 在每次渲染完成后执行，但你也可以选择在某些值改变后就执行）
 
     * Why is useEffect called inside a component? Placing useEffect inside the component lets us access the state variable (or any props) right from the effect.
     （为什么要把 useEffect 放在组件内部进行调用？因为把 useEffect 放在组件内部可以让我们直接拥有获取组件的 state 及 props 的权限）
