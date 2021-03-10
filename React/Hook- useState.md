@@ -4,7 +4,7 @@
 const [state, setState] = useState(initialState);
 ```
   * useState
-    * useState 方法需要传入一个初始 state 的值，返回 state 值和更新 state 值的方法 setState
+    * useState 方法需要传入一个初始 state 的值，然后以数组的形式返回 state 值和更新 state 值的方法 setState（之所以用数组的形式而不是以对象的形式，应该是考虑到用数组进行解构赋值是可以自定义 state 和 setState 名字的，若用对象则不行）
 
   * initialState
     * The initialState argument is the state used during the initial render. In subsequent renders, it is disregarded.
